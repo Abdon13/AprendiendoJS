@@ -1,0 +1,16 @@
+let numero1 = 8;
+let numero2 = 3;
+let resultadosuma = numero1 + numero2;
+let resultadoresta = numero1 - numero2;
+let resultadomultiplicacion = numero1 * numero2;
+let resultadodivision = numero1 / numero2;
+let resultadomodulo = numero1 % numero2;
+let resultadoexponente = numero1 ** numero2;
+console.log("Numero 1: ", numero1);
+console.log("Numero 2: ", numero1);
+console.log("Resultados suma",resultadosuma);
+console.log("Resultados resta",resultadoresta);
+console.log("Resultados multiplicacion",resultadomultiplicacion);
+console.log("Resultados division",resultadodivision);
+console.log("Resultados modulo",resultadomodulo);
+console.log("Resultados exponente",resultadoexponente);

@@ -1,0 +1,10 @@
+let cadena="En un lugar de la mancha";
+console.log("Cadena: ", cadena);
+console.log("Posicion de la cadena 'lugar' (indexOF): ", cadena.indexOf("lugar"));
+console.log("Posicion de la cadena 'lugar' (search): ", cadena.search("lugar"));
+cadena = "¿En que lugar aparece la palabra 'lugar'?";
+console.log("Cadena: ",cadena);
+console.log("indexOf 'lugar' sin segundo parametro: ", cadena.indexOf("lugar"));
+console.log("indexOf 'lugar' con segundo parametro: ", cadena.indexOf("lugar",20));
+console.log("lastIndexOf 'lugar' sin segundo parametro: ", cadena.lastIndexOf("lugar"));
+console.log("lastIndexOf 'lugar' con segundo parametro: ", cadena.lastIndexOf("lugar",20));
