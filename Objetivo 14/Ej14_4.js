@@ -6,6 +6,6 @@ fs.writeFileSync('nuevalinea.txt',"se que es la mejor opcion\n",{flag: "a+"});
 
 console.log("El archivo fue creado correctamente");
 
-const datos= fs.readFileSync('nuevlinea.txt','utf8');
+const datos= fs.readFileSync('nuevalinea.txt','utf8');
 console.log("Fichero leido: ");
 console.log(datos);
